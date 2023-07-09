@@ -8,14 +8,16 @@ html {
   font-size: 62.5%;
 }
 /* header sec start */
-
-.banner {
+header {
   height: 100vh;
   background: url("images/banner/banner1.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+.banner {
   text-align: end;
-  padding: 216px 230px 364px 845px;
+  /* padding: 150px 230px 364px 845px; */
+  padding: 200px 200px 100px 800px;
 }
 .banner h2 {
   color: #151414;
@@ -41,3 +43,40 @@ html {
   margin-top: 25px;
 }
 /* header sec end */
+
+/* main sec start */
+
+.failures {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 140px 80px 100px 277px; */
+  /* padding: 140px 0px 100px 200px; */
+  padding: 140px 0px 50px 0px;
+}
+.failures img {
+  width: 400px;
+}
+.failures-text {
+  /* padding: 488px 322px 100px 862px; */
+  margin-left: 100px;
+}
+.failures-text h3 {
+  color: #151414;
+  font-size: 40px;
+}
+.failures-text p {
+  color: #444343;
+  font-size: 16px;
+  margin-top: 15px;
+}
+.section-list {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.section-list-info {
+  color: #444343;
+  font-size: 16px;
+  margin: 10px 0px 0px 0px;
+}
+/* main sec end */
