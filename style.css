@@ -110,13 +110,38 @@ header {
 /* overlay section start */
 
 .overlay {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 500px;
+  margin: 100px 0px 100px 120px;
 }
-.overlay-content img {
-  width: 1000px;
+.overlay-content {
+  background: url("images/watch.png"),
+    linear-gradient(90deg, rgba(241, 91, 34, 0.767), rgba(63, 21, 4, 0));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 1100px;
+  background-size: cover;
+  padding: 70px 0px 0px 100px;
+}
+.overlay-content h3 {
+  color: #fff;
+  font-size: 35px;
+}
+.overlay-content button {
+  border-radius: 5px;
+  background: #fff;
+  color: #f15b22;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px 25px;
+  border: none;
+  margin-top: 20px;
 }
 /* overlay section end */
 /* main sec end */
+
+/* footer section start */
+footer {
+  background: #151414;
+  color: white;
+}
+/* footer section ends */
