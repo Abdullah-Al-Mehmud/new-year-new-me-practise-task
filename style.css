@@ -144,4 +144,54 @@ footer {
   background: #151414;
   color: white;
 }
+.footer-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+}
+.footer-section-list h2 {
+  color: #f8f8f8;
+  font-size: 40px;
+}
+.footer-section-list p {
+  color: #fff;
+  font-size: 16px;
+  margin-top: 15px;
+}
+.footer-section-icons {
+  margin-top: 15px;
+}
+.footer-section-icons img:nth-child(2) {
+  margin-left: 10px;
+}
+.footer-section-icons img:nth-child(3) {
+  margin-left: 10px;
+}
+
+.footer-section-form {
+  padding: 0px 0px 130px 0px;
+}
+.footer-section-form h3 {
+  color: #fff;
+  font-size: 25px;
+}
+.footer-section-form input {
+  padding: 15px;
+  background: transparent;
+  border: 1px solid gray;
+  border-radius: 10px;
+  outline: none;
+  margin-top: 25px;
+}
+.footer-section-form button {
+  border-radius: 5px;
+  background: #fff;
+  color: #f15b22;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px 25px;
+  border: none;
+  margin-top: 20px;
+}
 /* footer section ends */
