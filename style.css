@@ -46,19 +46,17 @@ header {
 
 /* main sec start */
 
+/* failure section start */
 .failures {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding: 140px 80px 100px 277px; */
-  /* padding: 140px 0px 100px 200px; */
-  padding: 140px 0px 50px 0px;
+  padding: 140px 0px 150px 0px;
 }
 .failures img {
   width: 400px;
 }
 .failures-text {
-  /* padding: 488px 322px 100px 862px; */
   margin-left: 100px;
 }
 .failures-text h3 {
@@ -79,4 +77,46 @@ header {
   font-size: 16px;
   margin: 10px 0px 0px 0px;
 }
+/* failure section ends */
+
+/* plans sec start */
+.plans > h3 {
+  color: #151414;
+  font-size: 40px;
+  text-align: center;
+}
+.plan-list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 300px;
+  padding: 50px 60px 0px 60px;
+}
+.plan-list-info {
+  text-align: center;
+}
+.plan-list-title {
+  color: #151414;
+  font-size: 20px;
+  margin-top: 15px;
+}
+.plan-list-para {
+  color: #737272;
+  font-size: 16px;
+  margin-top: 15px;
+}
+/* plans sec end */
+
+/* overlay section start */
+
+.overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+.overlay-content img {
+  width: 1000px;
+}
+/* overlay section end */
 /* main sec end */
